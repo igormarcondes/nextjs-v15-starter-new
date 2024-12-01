@@ -12,7 +12,7 @@
       "error",
       { "props": "never", "children": "never", "propElementValues": "always" }
     ],
-    "jsx-quotes": ["off", "prefer-double"],
+    "jsx-quotes": ["off", "prefer-single"],
     "@typescript-eslint/no-explicit-any": "off",
     "react/no-unescaped-entities": "off",
     "react-hooks/exhaustive-deps": "off"

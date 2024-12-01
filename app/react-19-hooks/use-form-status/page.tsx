@@ -5,7 +5,7 @@ import { useFormStatus } from 'react-dom';
 // This would typically be in a separate file
 const submitAction = async () => {
   // Simulate server delay
-  await new Promise(resolve => setTimeout(resolve, 2000));
+  await new Promise((resolve) => setTimeout(resolve, 2000));
 };
 
 const Form = () => {

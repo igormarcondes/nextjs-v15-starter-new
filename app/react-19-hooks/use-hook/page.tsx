@@ -6,7 +6,7 @@ import { use } from 'react';
 // This would typically be in a separate file
 const fetchData = async () => {
   // Simulate server delay
-  await new Promise(resolve => setTimeout(resolve, 1000));
+  await new Promise((resolve) => setTimeout(resolve, 1000));
   return 'Data fetched successfully!';
 };
 

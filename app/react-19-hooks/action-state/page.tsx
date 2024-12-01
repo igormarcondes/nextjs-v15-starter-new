@@ -11,7 +11,7 @@ const submitActionWithCurrentState = async (
   const age = Number(formData.get('age'));
 
   // Simulate server delay
-  await new Promise(resolve => setTimeout(resolve, 1000));
+  await new Promise((resolve) => setTimeout(resolve, 1000));
 
   if (prevState.users.some((user: any) => user.username === username)) {
     return { ...prevState, error: `User "${username}" already exists` };

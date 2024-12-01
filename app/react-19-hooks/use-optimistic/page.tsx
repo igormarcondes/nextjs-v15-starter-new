@@ -5,7 +5,7 @@ import { useOptimistic, useState } from 'react';
 // This would typically be in a separate file
 const submitTitle = async (formData: FormData) => {
   // Simulate server delay
-  await new Promise(resolve => setTimeout(resolve, 1000));
+  await new Promise((resolve) => setTimeout(resolve, 1000));
   const newTitle = formData.get('title') as string;
   if (newTitle === 'error') {
     throw new Error('Title cannot be "error"');
