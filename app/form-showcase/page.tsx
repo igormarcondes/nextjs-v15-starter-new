@@ -5,6 +5,7 @@ export default function Page() {
     <div className="container mx-auto p-4">
       <h1 className="text-2xl font-bold mb-4">Next v15 Form Component</h1>
       <p className="mb-4">Which saves us from a lot of boilerplate code.</p>
+      <p className="mb-4">O que nos poupa de muito código repetitivo.</p>
       <Form action="/search" className="flex flex-col space-y-4">
         {/* On submission, the input value will be appended to 
             the URL, e.g. /search?query=abc */}
